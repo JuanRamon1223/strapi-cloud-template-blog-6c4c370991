@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "singularName": "order",
+    "pluralName": "orders",
+    "displayName": "Order"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "CustomerName": {
+      "type": "string"
+    },
+    "Product": {
+      "type": "string"
+    },
+    "Price": {
+      "type": "decimal"
+    },
+    "CurrentStatus": {
+      "type": "enumeration",
+      "enum": [
+        "Open",
+        "Paid",
+        "Shipped"
+      ]
+    }
+  }
+}
