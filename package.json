@@ -15,7 +15,7 @@
     "upgrade:dry": "npx @strapi/upgrade latest --dry"
   },
   "dependencies": {
-    "next.js": "14",
+    "next.js": "14.0.0",
     "@strapi/plugin-cloud": "5.27.0",
     "@strapi/plugin-users-permissions": "5.27.0",
     "@strapi/strapi": "5.27.0",
