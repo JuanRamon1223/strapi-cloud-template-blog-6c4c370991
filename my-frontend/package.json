@@ -22,4 +22,9 @@
     "eslint-config-next": "15.5.5",
     "typescript": "^5"
   }
+  "scripts": {
+  "dev": "next dev",
+  "build": "next build --tsconfig tsconfig.json",
+  "start": "next start"
+}
 }
